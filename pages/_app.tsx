@@ -1,7 +1,7 @@
 import "../styles/index.css"; // <- applied everywhere in the NextJS application scope
 import type { AppProps /* , AppContext */ } from "next/app";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return <Component {...pageProps} />;
 }
 
